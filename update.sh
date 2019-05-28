@@ -6,7 +6,7 @@ set -x # print commands
 git clone repo-concourse updated-log
 
 cd updated-log-repo
-echo "the concourse repository was updated on $(date)" >> log-file.txt
+echo "the concourse repository was updated on $(date)" >> concourseLog.txt
 
 git config --global user.email "nobody@concourse-ci.org"
 git config --global user.name "Concourse"
