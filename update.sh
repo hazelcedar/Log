@@ -7,6 +7,8 @@ git clone repo-concourse updated-log
 
 cd updated-log
 
+git pull
+
 echo "the concourse repository was updated on $(date)" >> concourseLog.txt
 
 git config --global user.email "hazelcedar@gmail.com"
