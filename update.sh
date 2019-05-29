@@ -8,8 +8,8 @@ git clone repo-concourse updated-log
 cd updated-log-repo
 echo "the concourse repository was updated on $(date)" >> concourseLog.txt
 
-git config --global user.email "nobody@concourse-ci.org"
-git config --global user.name "Concourse"
+git config --global user.email "hazelcedar@gmail.com"
+git config --global user.name "hazelcedar"
 
 git add .
 git commit -m "log file update"
